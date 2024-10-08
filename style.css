@@ -11,7 +11,7 @@ body {
 }
 footer {
 
-  color: rgb(8, 8, 63);
+  color: rgb(255,255,255);
   clear: both;
   background-color: blueviolet;
 }
@@ -67,7 +67,7 @@ a{
   }
   footer {
     text-align: right;
-    color: rgb(10, 0, 12);
+    color: rgb(255,255,255);
     clear: both;
    
   }
