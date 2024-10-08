@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+footer {
+
+  color: rgb(8, 8, 63);
+  clear: both;
+  background-color: blueviolet;
+}
+span{
+  color: midnightblue;
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+.tile-image{
+  height: 300px;
+  float: left;
+  margin-right: 50px;
+}
+.right{
+  float: right;
+  background-color: rgb(167, 214, 255);
+
+}
+.left{
+  float: left;
+  background-color: rgb(167, 214, 255);
+}
+.card{
+  width: 30%;
+  display: inline-block;
+
+}
+.logo{
+  height: 30px;
+}
+footer>p{
+  text-align: center;
+  width: 100%;
+}
+.card-text{
+  width: fit-content;
+}
+a{
+  display: inline;
+  background-color: rgb(245, 211, 137);
+  padding: 5px;
+  color: rgb(171, 89, 13);
+}
+@media (max-width: 750px) and (min-width: 300px){
+  .logo{
+    height: 20px;
+  }
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  footer {
+    text-align: right;
+    color: rgb(10, 0, 12);
+    clear: both;
+   
+  }
+  span{
+    color: rgb(35, 0, 45);
+}
+.tile-image{
+  height: 200px;
+  float: left;
+  margin-right: 35px;
+}
+.card{
+  width: 20%;
+  display: block;
+}
+.left{
+  position: relative;
+  background-color: rgb(167, 214, 255);
+  display: block;
+}
+.right{
+  position: relative;
+  background-color: rgb(167, 214, 255);
+  display: block;
+}
+footer>p{
+  text-align: center;
+}
+div{
+  display: inline-block;
+  
+}
+.card img{
+  display: inline;
+}
+}
