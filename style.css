@@ -100,9 +100,6 @@ div{
   display: inline-block;
   
 }
-.card img{
-  display: inline;
-}
 .card {
   width: 100%;
   display: block;
@@ -115,7 +112,6 @@ div{
   width: 100%;
   display: inline;
   object-fit: cover;
-}
 }
 
 }
