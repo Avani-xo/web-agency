@@ -57,7 +57,7 @@ a{
   padding: 5px;
   color: rgb(171, 89, 13);
 }
-@media (max-width: 750px) and (min-width: 300px){
+@media (max-width: 750px){
   .logo{
     height: 20px;
   }
